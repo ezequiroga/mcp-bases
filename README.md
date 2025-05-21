@@ -18,16 +18,16 @@ A powerful research assistant built using the Model Context Protocol (MCP) that 
 
 ## Prerequisites
 
-- Python 3.x
-- Node.js and npm (for filesystem server)
-- Anthropic API key (for the chatbot)
+- Python 3.x (used `3.12.8`)
+- Node.js and npm (used `v22.13.0`)
+- Anthropic API key
 
 ## Installation
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/ezequiroga/mcp-bases
-cd gh-repository
+cd mcp-bases
 ```
 
 2. Install Python dependencies:
@@ -39,6 +39,11 @@ pip install -r requirements.txt
 ```bash
 cp .env-example .env
 # Edit .env and add your Anthropic API key
+```
+
+4. Update npm
+```bash
+npm install -g npm@latest
 ```
 
 ## Project Structure
